@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-const About = ({ about }) => {
+const About = ({ title }) => {
   return (
     <section className="section about-section">
-      <h1 className="section-title">{about}</h1>
+      <h1 className="section-title">{title}</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ex
         obcaecati, nisi suscipit laudantium at ratione quia pariatur illum sunt
@@ -15,11 +15,11 @@ const About = ({ about }) => {
 };
 
 About.defaultProps = {
-  about: "About Us",
+  title: "About Us",
 };
 
 About.propTypes = {
-  about: PropTypes.string,
+  title: PropTypes.string,
 };
 
 export default About;
