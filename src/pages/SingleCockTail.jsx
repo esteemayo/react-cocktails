@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 
 import Loading from 'components/Loading';
 
-import { getCocktail } from "services/cocktailService";
+import { getCocktail } from 'services/cocktailService';
 
 const SingleCockTail = () => {
   const [cocktail, setCocktail] = useState(null);
