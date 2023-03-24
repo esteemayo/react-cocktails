@@ -6,6 +6,7 @@ import Loading from 'components/Loading';
 import { getCocktail } from 'services/cocktailService';
 
 const SingleCockTail = () => {
+  const [loading, setLoading] = useState(false);
   const [cocktail, setCocktail] = useState(null);
   const [loading, setLoading] = useState(false);
   const { id } = useParams();
