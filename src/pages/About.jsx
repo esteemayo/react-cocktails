@@ -15,7 +15,7 @@ const About = ({ title }) => {
 };
 
 About.defaultProps = {
-  title: "About Us",
+  title: 'About Us',
 };
 
 About.propTypes = {
