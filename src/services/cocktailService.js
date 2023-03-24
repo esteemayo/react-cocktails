@@ -1,4 +1,4 @@
-import http from "./httpService";
+import http from './httpService';
 
 export function getCocktails(searchTerm) {
   return http.get(`/search.php?s=${searchTerm}`);
