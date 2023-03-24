@@ -1,7 +1,6 @@
 import Loading from 'components/Loading';
 import SearchForm from 'components/SearchForm';
 import CockTailList from 'components/CockTailList';
-
 import { useGlobalContext } from 'utils/context';
 
 const Home = () => {
