@@ -6,6 +6,7 @@ import { getCocktail } from 'services/cocktailService';
 
 const SingleCockTail = () => {
   const { id } = useParams();
+
   const [loading, setLoading] = useState(false);
   const [cocktail, setCocktail] = useState(null);
 
