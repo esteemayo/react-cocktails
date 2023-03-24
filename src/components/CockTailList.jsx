@@ -1,6 +1,7 @@
 import Loading from './Loading';
 import CockTail from './CockTail';
 import { useGlobalContext } from 'utils/context';
+import CockTail from './CockTail';
 
 const CockTailList = () => {
   const { cocktails, loading } = useGlobalContext();
