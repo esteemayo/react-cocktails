@@ -1,5 +1,5 @@
-import Loading from "./Loading";
-import CockTail from "./CockTail";
+import Loading from './Loading';
+import CockTail from './CockTail';
 
 import { useGlobalContext } from "./../utils/context";
 
