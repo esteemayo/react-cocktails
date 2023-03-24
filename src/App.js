@@ -7,7 +7,6 @@ import { About, Home, SingleCockTail } from "pages";
 
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
-import { About, Home, SingleCockTail } from "pages";
 
 axios.defaults.baseURL = "https://www.thecocktaildb.com/api/json/v1/1";
 
