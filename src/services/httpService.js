@@ -20,8 +20,8 @@ authFetch.interceptors.response.use(null, (error) => {
 
   if (!expectedError) {
     logger.log(error);
-    toast(error.message);
-    // toast('An unexpected error occurred!');
+    toast.error(error.message);
+    // toast.error('An unexpected error occurred!');
   }
 
   return Promise.reject(error);
