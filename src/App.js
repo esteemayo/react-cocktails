@@ -8,8 +8,6 @@ import { About, Home, SingleCockTail } from 'pages';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 
-axios.defaults.baseURL = 'https://www.thecocktaildb.com/api/json/v1/1';
-
 function App() {
   return (
     <Router>
