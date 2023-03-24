@@ -4,7 +4,7 @@ import { useGlobalContext } from './../utils/context';
 
 const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext();
-  const searchvalue = useRef("");
+  const searchvalue = useRef('');
 
   useEffect(() => {
     searchvalue.current.focus();
