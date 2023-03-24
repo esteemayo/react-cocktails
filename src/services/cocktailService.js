@@ -1,8 +1,9 @@
 import http from './httpService';
 
-export function getCocktails(searchTerm) {
-  return http.get(`/search.php?s=${searchTerm}`);
-}
+export const getCocktails = (searchTerm) =>
+  http.get(`/search.php?s=${searchTerm}`);
+
+export const getCocktail = (id) => http.get(`/lookup.php?i=${id}`);
 
 export function getCocktail(id) {
   return http.get(`/lookup.php?i=${id}`);
