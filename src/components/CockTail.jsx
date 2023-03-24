@@ -6,7 +6,7 @@ const CockTail = ({ id, name, info, image, glass }) => {
       <div className='img-container'>
         <img src={image} alt={name} />
       </div>
-      <div className="cocktail-footer">
+      <div className='cocktail-footer'>
         <h3>{name}</h3>
         <h4>{glass}</h4>
         <p>{info}</p>
