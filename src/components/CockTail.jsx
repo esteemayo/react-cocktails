@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const CockTail = ({ id, name, info, image, glass }) => {
   return (
