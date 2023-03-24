@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import axios from 'axios';
 
-import NavBar from './components/NavBar';
+import NavBar from 'components/NavBar';
 import { About, Home, SingleCockTail } from 'pages';
 
 import 'react-toastify/dist/ReactToastify.css';
