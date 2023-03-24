@@ -5,6 +5,3 @@ export const getCocktails = (searchTerm) =>
 
 export const getCocktail = (id) => http.get(`/lookup.php?i=${id}`);
 
-export function getCocktail(id) {
-  return http.get(`/lookup.php?i=${id}`);
-}
