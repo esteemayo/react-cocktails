@@ -28,10 +28,10 @@ authFetch.interceptors.response.use(null, (error) => {
 });
 
 const http = {
-  get: axios.get,
-  post: axios.post,
-  put: axios.put,
-  delete: axios.delete,
+  get: authFetch.get,
+  post: authFetch.post,
+  put: authFetch.put,
+  delete: authFetch.delete,
 };
 
 export default http;
