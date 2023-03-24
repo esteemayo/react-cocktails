@@ -24,8 +24,8 @@ const SearchForm = () => {
         <div className='form-control'>
           <label htmlFor='name'>Search your favorite cocktail</label>
           <input
-            type="search"
-            id="name"
+            type='search'
+            id='name'
             ref={searchvalue}
             onChange={handleSearchCocktail}
           />
