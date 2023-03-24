@@ -8,7 +8,6 @@ import { getCocktail } from 'services/cocktailService';
 const SingleCockTail = () => {
   const [loading, setLoading] = useState(false);
   const [cocktail, setCocktail] = useState(null);
-  const [loading, setLoading] = useState(false);
   const { id } = useParams();
 
   useEffect(() => {
@@ -70,38 +69,38 @@ const SingleCockTail = () => {
       ) : (
         <>
           {!cocktail ? (
-            <h2 className="section-title">No cocktail to display</h2>
+            <h2 className='section-title'>No cocktail to display</h2>
           ) : (
-            <section className="section cocktail-section">
-              <Link to="/" className="btn btn-primary">
+            <section className='section cocktail-section'>
+              <Link to='/' className='btn btn-primary'>
                 Back Home
               </Link>
-              <h2 className="section-title">{cocktail.name}</h2>
-              <div className="drink">
+              <h2 className='section-title'>{cocktail.name}</h2>
+              <div className='drink'>
                 <img src={cocktail.image} alt={cocktail.name} />
-                <div className="drink-info">
+                <div className='drink-info'>
                   <p>
-                    <span className="drink-data">Name :</span>
+                    <span className='drink-data'>Name :</span>
                     {cocktail.name}
                   </p>
                   <p>
-                    <span className="drink-data">Category :</span>
+                    <span className='drink-data'>Category :</span>
                     {cocktail.category}
                   </p>
                   <p>
-                    <span className="drink-data">Info :</span>
+                    <span className='drink-data'>Info :</span>
                     {cocktail.info}
                   </p>
                   <p>
-                    <span className="drink-data">Glass :</span>
+                    <span className='drink-data'>Glass :</span>
                     {cocktail.glass}
                   </p>
                   <p>
-                    <span className="drink-data">Instructions :</span>
+                    <span className='drink-data'>Instructions :</span>
                     {cocktail.instructions}
                   </p>
                   <p>
-                    <span className="drink-data">Ingredients :</span>
+                    <span className='drink-data'>Ingredients :</span>
                     {cocktail.ingredients.map((ingredient, index) => {
                       return ingredient ? (
                         <span key={index}>{ingredient}</span>
