@@ -14,7 +14,7 @@ const Home = () => {
       ) : (
         <>
           {cocktails.length < 1 ? (
-            <h2 className="section-title">
+            <h2 className='section-title'>
               No cocktails matched your search criteria
             </h2>
           ) : (
