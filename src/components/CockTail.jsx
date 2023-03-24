@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 const CockTail = ({ id, name, info, image, glass }) => {
   return (
-    <article className="cocktail">
-      <div className="img-container">
+    <article className='cocktail'>
+      <div className='img-container'>
         <img src={image} alt={name} />
       </div>
       <div className="cocktail-footer">
