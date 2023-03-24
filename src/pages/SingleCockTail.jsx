@@ -9,7 +9,6 @@ const SingleCockTail = () => {
   const { id } = useParams();
   const [loading, setLoading] = useState(false);
   const [cocktail, setCocktail] = useState(null);
-  const { id } = useParams();
 
   useEffect(() => {
     (async function fetchCocktail() {
