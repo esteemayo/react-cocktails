@@ -16,10 +16,10 @@ function App() {
       <NavBar />
       <ToastContainer />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/cocktail/:id" component={SingleCockTail} />
-        <Route path="*" component={Error} />
+        <Route exact path='/' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/cocktail/:id' component={SingleCockTail} />
+        <Route path='*' component={Error} />
       </Switch>
     </Router>
   );
