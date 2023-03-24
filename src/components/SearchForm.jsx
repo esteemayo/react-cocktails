@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-
 import { useGlobalContext } from 'utils/context';
 
 const SearchForm = () => {
