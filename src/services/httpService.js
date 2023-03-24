@@ -11,7 +11,7 @@ const authFetch = axios.create({
   },
 });
 
-axios.interceptors.response.use(null, (error) => {
+authFetch.interceptors.response.use(null, (error) => {
   const expectedError =
     error.response &&
     error.response.status >= 400 &&
