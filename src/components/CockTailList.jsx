@@ -17,9 +17,9 @@ const CockTailList = () => {
               No cocktails matched your search criteria
             </h2>
           ) : (
-            <section className="section">
-              <h2 className="section-title">Cocktails</h2>
-              <div className="cocktails-center">
+            <section className='section'>
+              <h2 className='section-title'>Cocktails</h2>
+              <div className='cocktails-center'>
                 {cocktails.map((cocktail) => (
                   <CockTail key={cocktail.id} {...cocktail} />
                 ))}
