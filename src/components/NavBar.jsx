@@ -4,10 +4,10 @@ import logo from '../logo.svg';
 
 const NavBar = () => {
   return (
-    <nav className="navbar">
-      <div className="nav-center">
-        <Link to="/">
-          <img src={logo} alt="logo" className="logo" />
+    <nav className='navbar'>
+      <div className='nav-center'>
+        <Link to='/'>
+          <img src={logo} alt='logo' className='logo' />
         </Link>
       </div>
       <ul className="nav-links">
