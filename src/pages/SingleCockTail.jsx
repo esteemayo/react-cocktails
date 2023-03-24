@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-import Loading from "components/Loading";
+import Loading from 'components/Loading';
 
 import { getCocktail } from "services/cocktailService";
 
