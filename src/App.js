@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
+import { Home } from "pages";
 
 axios.defaults.baseURL = "https://www.thecocktaildb.com/api/json/v1/1";
 
