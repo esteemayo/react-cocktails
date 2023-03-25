@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { AppProvider } from './context/cocktail/CocktailContext';
+import AppProvider from './context/cocktail/CocktailContext';
 
 ReactDOM.render(
   <React.StrictMode>
