@@ -95,7 +95,7 @@ Buttons
   transition: var(--mainTransition);
   cursor: pointer;
   font-size: 0.8rem;
-  background: transparent;
+  background-color: transparent;
   border-radius: var(--mainBorderRadius);
   display: inline-block;
 }
