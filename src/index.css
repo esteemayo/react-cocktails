@@ -265,7 +265,7 @@ Cocktail
 */
 
 .cocktail {
-  background: var(--mainWhite);
+  background-color: var(--mainWhite);
   margin-bottom: 2rem;
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
