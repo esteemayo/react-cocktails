@@ -44,4 +44,4 @@ export const useGlobalContext = () => {
   return useContext(CocktailContext);
 };
 
-export { AppContext, AppProvider };
+export { CocktailContext, AppProvider };
