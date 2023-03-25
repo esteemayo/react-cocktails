@@ -36,7 +36,7 @@ const AppProvider = ({ children }) => {
   return (
     <CocktailContext.Provider value={{ loading, cocktails, setSearchTerm }}>
       {children}
-    </AppContext.Provider>
+    </CocktailContext.Provider>
   );
 };
 
