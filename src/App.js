@@ -5,7 +5,6 @@ import NavBar from 'components/NavBar';
 import { About, Home, SingleCockTail } from 'pages';
 
 import 'react-toastify/dist/ReactToastify.css';
-import './App.css';
 
 function App() {
   return (
