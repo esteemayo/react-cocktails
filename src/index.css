@@ -375,7 +375,7 @@ Cocktail
 }
 
 .drink-data {
-  background: var(--primaryLightColor);
+  background-color: var(--primaryLightColor);
   padding: 0.25rem 0.5rem;
   border-radius: var(--mainBorderRadius);
   color: var(--primaryColor);
