@@ -1,7 +1,7 @@
 import Loading from 'components/Loading';
 import CockTailList from 'components/CockTailList';
 import SearchForm from 'components/SearchForm';
-import { useGlobalContext } from 'context/context';
+import { useGlobalContext } from 'context/cocktail/context';
 
 const Home = () => {
   const { cocktails, loading } = useGlobalContext();
