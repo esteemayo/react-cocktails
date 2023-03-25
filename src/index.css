@@ -337,7 +337,7 @@ Form
   width: 100%;
   border: none;
   border-color: transparent;
-  background: var(--mainBackground);
+  background-color: var(--mainBackground);
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
