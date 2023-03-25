@@ -3,7 +3,7 @@ import { getCocktails } from 'services/cocktailService';
 
 const CocktailContext = createContext();
 
-const AppProvider = ({ children }) => {
+const CocktailProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [cocktails, setCocktails] = useState([]);
   const [searchTerm, setSearchTerm] = useState('a');
