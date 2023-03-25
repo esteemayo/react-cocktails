@@ -1,5 +1,5 @@
 import Loading from './Loading';
-import { useGlobalContext } from 'context/cocktail/context';
+import { useGlobalContext } from 'context/cocktail/CocktailContext';
 import CockTail from './CockTail';
 
 const CockTailList = () => {
