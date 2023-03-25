@@ -150,7 +150,7 @@ Navbar
 ======
 */
 .navbar {
-  background: var(--mainWhite);
+  background-color: var(--mainWhite);
   height: 5rem;
   display: flex;
   align-items: center;
