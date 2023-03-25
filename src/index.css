@@ -401,7 +401,7 @@ Cocktail
 .loader,
 .loader:before,
 .loader:after {
-  background: transparent;
+  background-color: transparent;
   -webkit-animation: load1 1s infinite ease-in-out;
   animation: load1 1s infinite ease-in-out;
   width: 1em;
