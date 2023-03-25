@@ -106,7 +106,7 @@ Buttons
 }
 
 .btn-white {
-  background: transparent;
+  background-color: transparent;
   color: var(--mainWhite);
   border-color: var(--mainWhite);
 }
