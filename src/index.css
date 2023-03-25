@@ -117,7 +117,7 @@ Buttons
 }
 
 .btn-primary {
-  background: var(--primaryColor);
+  background-color: var(--primaryColor);
   color: var(--mainWhite);
   border-color: transparent;
 }
