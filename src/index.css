@@ -140,7 +140,7 @@ Buttons
 }
 
 .btn-details:hover {
-  background: var(--primaryLightColor);
+  background-color: var(--primaryLightColor);
   border-color: var(--primaryLightColor);
 }
 
