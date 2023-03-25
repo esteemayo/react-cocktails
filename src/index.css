@@ -112,7 +112,7 @@ Buttons
 }
 
 .btn-white:hover {
-  background: var(--mainWhite);
+  background-color: var(--mainWhite);
   color: var(--primaryColor);
 }
 
