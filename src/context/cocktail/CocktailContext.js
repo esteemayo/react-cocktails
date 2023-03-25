@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext, createContext } from 'react';
 
-import { getCocktails } from '../../services/cocktailService';
+import { getCocktails } from 'services/cocktailService';
 
 const AppContext = createContext();
 
