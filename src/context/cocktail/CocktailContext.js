@@ -41,7 +41,7 @@ const AppProvider = ({ children }) => {
 };
 
 export const useGlobalContext = () => {
-  return useContext(AppContext);
+  return useContext(CocktailContext);
 };
 
 export { AppContext, AppProvider };
