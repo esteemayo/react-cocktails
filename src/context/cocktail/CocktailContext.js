@@ -9,7 +9,7 @@ const CocktailProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState('a');
 
   useEffect(() => {
-    (async function fetchCocktails() {
+    (async () => {
       const { data } = await getCocktails(searchTerm);
       const { drinks } = data;
 
